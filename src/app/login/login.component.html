@@ -1,0 +1,12 @@
+<button class="btn btn-primary"
+        (click)="goToLoginPage()">Login</button>
+<pre><code>{{ oauthResponse | json }}</code></pre>
+<button class="btn btn-primary"
+        *ngIf="oauthResponse"
+        (click)="getProfile()">Profile</button>
+<div *ngIf="account">
+    <p><strong>First Name: </strong>{{ account.firstName }}</p>
+    <p><strong>Last Name: </strong>{{ account.lastName }}</p>
+    <p><strong>Email: </strong>{{ account.email }}</p>
+    <p><strong>Username: </strong>{{ account.username }}</p>
+</div>
