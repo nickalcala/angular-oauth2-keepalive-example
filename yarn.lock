@@ -854,6 +854,20 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@ng-idle/core@^8.0.0-beta.4":
+  version "8.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@ng-idle/core/-/core-8.0.0-beta.4.tgz#c856bb2dd3c8407321380faac8c5692a5728fd0d"
+  integrity sha512-bI/tt7F5+z/w6b6SzNPc0+9rJ1knWgLzQweLd6xUQ7HHFrHsmBlJYUGiSv0cYUY+2RZAmIDbevwUDKLWmdE55w==
+  dependencies:
+    tslib "^1.9.0"
+
+"@ng-idle/keepalive@^8.0.0-beta.4":
+  version "8.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@ng-idle/keepalive/-/keepalive-8.0.0-beta.4.tgz#db385ad8833a9c42d1d8301531c47a68515a3089"
+  integrity sha512-yj7Y0pu2C7LhcjTcBE9DK5mFPFVHDj3vIVPTDzK3dN+51WoDQMrELl7BMuvzmTViat7mjsSP+00EwFvg6+FDEQ==
+  dependencies:
+    tslib "^1.9.0"
+
 "@ngtools/webpack@8.3.19":
   version "8.3.19"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-8.3.19.tgz#9ed3123a9c3d79c49f73fd9a30cbe283ddde9d47"
@@ -1209,6 +1223,13 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
+
+angular-2-local-storage@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/angular-2-local-storage/-/angular-2-local-storage-3.0.2.tgz#a43dc02db489b9be0eae70f8492a79b08a3af653"
+  integrity sha512-WZW5YKB8URkFJcLwTvXYgtE0lO3ok61niNy/s4gFTlCeEG1N0o9xhTf7/Ps65PKRp4QW6V68MAKXhpqASGd/yg==
+  dependencies:
+    tslib "^1.9.0"
 
 ansi-colors@4.1.1:
   version "4.1.1"
@@ -4460,9 +4481,9 @@ json3@^3.3.2:
   integrity sha512-c7/8mbUsKigAbLkD5B010BK4D9LZm7A1pNItkEwiUZRpIN66exu/e7YQWysGun+TRKaJp8MhemM+VkfWv42aCA==
 
 json5@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.2.tgz#63d98d60f21b313b77c4d6da18bfa69d80e1d593"
+  integrity sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==
   dependencies:
     minimist "^1.2.0"
 
@@ -4942,9 +4963,9 @@ minimist@0.0.8:
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
 minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 minimist@~0.0.1:
   version "0.0.10"
